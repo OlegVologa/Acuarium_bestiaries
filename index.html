@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Acvarium bestiaries</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="inner">
+        <header class="header">
+          <div class="header__block">
+            <a class="header__logo">
+              <img src="images/logo.png" alt="logo" class="logo-img">
+            </a>
+            <p class="header-title">Acvarium bestiaries</p>
+          </div>
+          <div class="header__contacts">
+            <a href="mailto:AcvariumBestiaries@mail.ru" class="header__email">AcvariumBestiaries@mail.ru</a>
+            <a href="tel:85555555555" class="header__phone">8 (555) 555 55 55</a>
+          </div>
+        </header>
+        
+        <main class="main">
+          <h1 class="title">Самые опасные, экзотические и уродливые обитатели морского дна в вашем акквариуме!</h1>
+          <div class="card">
+            <div class="card__info">
+              <h3 class="card__name">Золотой бандит</h3>
+              <h3 class="card__price">300</h3>
+            </div>
+            <div class="card__body">
+              <div class="slider">
+                <div class="slider-item">
+                  <img src="images/бандит-1.jpg" alt="fish" class="slider-img">
+                </div>
+                <div class="slider-item">
+                  <img src="images/бандит-2.jpg" alt="fish" class="slider-img">
+                </div>
+                <div class="slider-item">
+                  <img src="images/бандит-3.jpg" alt="fish" class="slider-img">
+                </div>
+                <div class="slider-item">
+                  <img src="images/бандит-4.jpg" alt="fish" class="slider-img">
+                </div>
+              </div>
+              <div class="card-tabs">
+                <ul class="tab-title">
+                  <li class="tab-item">Описание</li>
+                  <li class="tab-item">Особенности содержания</li>
+                </ul>
+                <ul class="tab-content">
+                  <li>Эта небольшая рыбка, несмотря на кажущуюся милоту-
+                    настоящий бандит подводного мира. Всего за несколько минут она способна растерзать до четырех тигровых акул,
+                    или одного
+                    небольшого кита.</li>
+                  <li>Держать исключительно в одиночку. Крышку акквариума закрывать на замок, и ключ прятать от детей!!! Кормить,
+                    подавая кусок мяса при помощи кузнечных клещей.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form__wrapper">
+            <form action="mail.php" class="form" method="POST">
+              <h3 class="form-title">Закажите сейчас</h3>
+              <div class="form__item">
+                <label for="formName" class="form__label">Имя</label>
+                <input type="text" class="form__input" id="formName" name="user_name">
+              </div>
+              <div class="form__item">
+                <label for="formPhone" class="form__label">Телефон</label>
+                <input type="tel" class="form__input" id="formPhone" name="user_phone">
+              </div>
+              <button type="submit" class="form__button">Отправить</button>
+            </form>
+          </div>
+
+        </main> 
+        
+        <footer class="footer">
+          <p>© Vologa Oleg 2023</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.inputmask.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
